@@ -1,9 +1,0 @@
-population_size: 6
-selection_ratio: 0.5            # Top 50% survive per generation
-crossover_method: llm_semantic
-diversity_threshold: 0.15       # Inject diversity if avg pairwise diff < this
-max_generations: 14             # ~10hr overnight on one GPU
-train_time_budget: 300          # 5 min per training run (seconds)
-llm_model: claude-sonnet-4-20250514
-llm_temperature_crossover: 0.7
-llm_temperature_mutation: 0.5
